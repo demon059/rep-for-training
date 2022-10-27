@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[color]
+    ui = true
+[remote "origin"]
+	url = https://github.com/demon059/rep-for-training.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[user]
+	name = Mylnikov Dmitriy
+	email = damylni3@mts.ru
